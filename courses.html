@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Courses - MySite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a class="brand" href="index.html">CodeWave</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="login.html" id="nav-login-c">Login</a></li>
+        <li><a href="register.html" id="nav-register-c">Register</a></li>
+        <li><button id="logoutBtn2" class="btn-link hide">Logout</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Available Courses</h2>
+    <div class="courses-grid">
+      <article class="course-card">
+        <h3>Flutter for Beginners</h3>
+        <p>Start building cross-platform apps with Flutter & Firebase.</p>
+        <a href="register.html" class="btn btn-sm">Enroll</a>
+      </article>
+
+      <article class="course-card">
+        <h3>Front-End Essentials</h3>
+        <p>HTML, CSS, JavaScript and React basics with projects.</p>
+        <a href="register.html" class="btn btn-sm">Enroll</a>
+      </article>
+
+      <article class="course-card">
+        <h3>Intro to Cyber Security</h3>
+        <p>Basics of Penetration Testing and security mindset.</p>
+        <a href="register.html" class="btn btn-sm">Enroll</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year2"></span> CodeWave</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

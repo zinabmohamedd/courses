@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home - MySite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a class="brand" href="index.html">CodeWave</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="login.html" id="nav-login">Login</a></li>
+        <li><a href="register.html" id="nav-register">Register</a></li>
+        <li><button id="logoutBtn" class="btn-link hide">Logout</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Welcome to CodeWave</h1>
+      <p>Learn programming, build projects and grow your skills.</p>
+      <div class="hero-actions">
+        <a href="courses.html" class="btn">Browse Courses</a>
+        <a href="register.html" class="btn btn-outline">Get Started</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="card">
+        <h3>Interactive Lessons</h3>
+        <p>Short and practical lessons to learn fast.</p>
+      </div>
+      <div class="card">
+        <h3>Projects</h3>
+        <p>Build real projects step-by-step.</p>
+      </div>
+      <div class="card">
+        <h3>Community</h3>
+        <p>Share progress and get feedback.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> CodeWave • Designed with 💜</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
